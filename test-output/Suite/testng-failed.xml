@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Regression.FreshiiProject.FWA_016">
+        <methods>
+          <include name="vermyacct"/>
+          <include name="Loginpagenavigation" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="Initialize"/>
+        </methods>
+      </class> <!-- Regression.FreshiiProject.FWA_016 -->
+      <class name="Regression.FreshiiProject.FWA_018">
+        <methods>
+          <include name="Loginpagenavigation" invocation-numbers="0"/>
+          <include name="verifyhistory"/>
+          <include name="Initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Regression.FreshiiProject.FWA_018 -->
+      <class name="Regression.FreshiiProject.FWA_019">
+        <methods>
+          <include name="Loginpagenavigation" invocation-numbers="0"/>
+          <include name="Initialize"/>
+          <include name="teardown"/>
+          <include name="clksignout"/>
+        </methods>
+      </class> <!-- Regression.FreshiiProject.FWA_019 -->
+      <class name="Regression.FreshiiProject.FWA_014">
+        <methods>
+          <include name="selectyogurt"/>
+          <include name="confirmselectedyogurt"/>
+          <include name="Loginpagenavigation" invocation-numbers="0"/>
+          <include name="clickonlocation"/>
+          <include name="clickordernow"/>
+          <include name="Initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Regression.FreshiiProject.FWA_014 -->
+      <class name="Regression.FreshiiProject.FWA_020">
+        <methods>
+          <include name="clkasap"/>
+          <include name="confirmselectedyogurt"/>
+          <include name="selectyogurt"/>
+          <include name="clickonlocation"/>
+          <include name="clickordernow"/>
+          <include name="Initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Regression.FreshiiProject.FWA_020 -->
+      <class name="Regression.FreshiiProject.FWA_017">
+        <methods>
+          <include name="Loginpagenavigation" invocation-numbers="0"/>
+          <include name="Initialize"/>
+          <include name="teardown"/>
+          <include name="verpaymentmethod"/>
+        </methods>
+      </class> <!-- Regression.FreshiiProject.FWA_017 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

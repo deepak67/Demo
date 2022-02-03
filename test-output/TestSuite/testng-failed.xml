@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="10" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="Regression.FreshiiProject.FWA_011">
+        <methods>
+          <include name="selectbeverages"/>
+          <include name="confirmselecteddrink"/>
+          <include name="Loginpagenavigation"/>
+          <include name="clickonlocation"/>
+          <include name="clickordernow"/>
+          <include name="Initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Regression.FreshiiProject.FWA_011 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

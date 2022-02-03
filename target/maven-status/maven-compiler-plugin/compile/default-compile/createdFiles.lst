@@ -1,0 +1,9 @@
+pageobject\Homepage.class
+pageobject\Loginpage.class
+pageobject\confirmationpage.class
+pageobject\chooselocation.class
+pageobject\Menuoptionspage.class
+Regression\FreshiiProject\App.class
+pageobject\Landingpage.class
+resource\Base.class
+pageobject\paymentoptionspage.class
